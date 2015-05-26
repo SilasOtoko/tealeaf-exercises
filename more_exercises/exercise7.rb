@@ -1,0 +1,1 @@
+# A Hash stores key/value pairs
