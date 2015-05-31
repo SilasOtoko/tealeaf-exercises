@@ -11,8 +11,8 @@ class GoodDog
   attr_accessor :name, :height, :weight     # this replaces the getter and setter
 
   def initialize(n, h, w)
-    @name = n
-    @height = h
+    @name = n   #remember that @name is an instance variable, it grabs the n
+    @height = h # that was passed in and makes an instance variable out of it
     @weight = w
   end
 
